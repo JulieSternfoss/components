@@ -12,7 +12,7 @@ Faren:
 // 3. Til sidst lægges startbeløbet sammen med renterne (4250 + 3289,5) hvilket gir 7539,5 kr.
 
         //Resultatet er derfor 7539,5 kr 
-
+        
 (4250 x 0,043 = 182,75, 
 182,75 x 18= 3.289,5, 
 4250 + 3.289,5	= 7539,5 kr)
