@@ -17,3 +17,5 @@ document.querySelector(".link3").addEventListener("click", function(){
 document.querySelector(".link4").addEventListener("click", function(){
     skiftFarve("purple");
 })
+
+
