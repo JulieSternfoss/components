@@ -56,16 +56,53 @@
 //opgave 14
 
 // var i=1
-// while(i < 5){
+// while(++i < 5){
 //     document.write(i)
 // }
 
 //opgave 15
-var skrivnogether=prompt("skriv noget her")
+// var skrivnogether=prompt("skriv noget her")
 
-if(isNaN(true)){
-    alert(skrivnogether +" er ikke et tal")
-}
-else{
- alert(skrivnogether +" er et tal- super!")
-};
+// if(isNaN(skrivnogether)){
+//     alert(skrivnogether +" er ikke et tal")
+// }
+// else{
+//  alert(skrivnogether +" er et tal- super!")
+// };
+
+//opgave 16
+// var skrivnogether=prompt("skriv noget her")
+
+// if(isNaN(skrivnogether)){
+//     alert(skrivnogether +" er ikke et tal")
+// }
+// else{
+    
+//     if(skrivnogether%2==0){
+//       alert(skrivnogether + "dette er et lige tal")  
+//     }
+//     else{
+//         alert(skrivnogether +"dette er ulige")
+//     }   
+// }
+
+//opgave 17
+
+// var j=1;
+// while (j < 10) {
+//     alert(j +" er mindre end 10")
+//     document.write(p)
+//     j++;//meget vigtigt at huste"j++" tilsidst
+//   };
+
+//opgave 18 + 19
+ 
+ 
+document.addEventListener("DOMContentLoaded", function(){
+    var i = 1;
+    while (i < 5) {
+    console.log(i);
+    document.querySelector("#awesomeness").innerHTML+="<p>tekst</p>"
+    i++;
+    }
+})
