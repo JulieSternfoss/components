@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cheeseCard{
+    padding: 4rem;
+    background-color: hsl(0, 120, 0,5);
+}
