@@ -3,7 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-.cheeseCard{
+/* .cheeseCard{
     padding: 4rem;
     background-color: hsl(0, 120, 0,5);
+}
+.container{
+    background-color: black;
+} */
+.drag{
+    background-color: blueviolet;
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+}
+.drop{
+
+    background-color: blue;
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    right: 39px;
+    bottom: 30px;
 }
