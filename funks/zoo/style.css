@@ -1,0 +1,38 @@
+*{
+}
+#animals img{
+    height: 50px;
+    aspect-ratio: 1;
+}
+
+.foods img{
+    height: 45px;
+    aspect-ratio: 1;
+}
+
+.foods{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+#animals{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    background: goldenrod;
+    padding: 1em
+}
+.animal{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    gap: 2rem;
+}
+
+.animal img:first-of-type{
+    margin-right: 5rem;
+}
