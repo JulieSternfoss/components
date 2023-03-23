@@ -12,16 +12,16 @@ dragFoodBox.forEach(function(elemenet){
 })
 
 function startDrag(events){
-    console.log("jo jo den kan hives")
+    console.log("jo den kan hives")
 
 }
 
-function dropmad(event){
+function dropMad(event){
     let madId = event.dataTransfer.getData("foodId");
     let madType = event.dataTransfer.getData("foodName");
 
     if (madType == this.dataset.food) {
-        let heart = document.createTextNode("❤")
+        let heart = document.createTextNode("❤");
         this.appendChild(heart);
         pointBox.innerHTML = parseInt(pointBox.innerHTML) + 100;
     } else {
