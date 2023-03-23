@@ -15,24 +15,38 @@
 //     alert("FUCKFUCKFUCK")
 // }
 
-const drag =document.querySelector(".drop")
+// const drag =document.querySelector(".drop")
 
-const drop =document.querySelector(".drop")
+// const drop =document.querySelector(".drop")
+
+// drag.addEventListener("dragend", dragHandler)
+
+// drop.addEventListener("drop", dropHandler)
+// drop.addEventListener("dragover", dragOverHandler)
+
+
+// function dragHandler(event){
+//     // alert("Dette er en alert")
+//     event.target.style.left=event.x + "px"
+//     event.target.style.top=event.y + "px"
+// }
+// function dropHandler(event){
+//     alert("hurra!")
+// }
+// function dragOverHandler(event){
+//     event.preventDefault()
+// }
+
+
+const drag =document.querySelector("#tortoise")
+
+const drop = document.querySelector("#tortoise")
 
 drag.addEventListener("dragend", dragHandler)
 
 drop.addEventListener("drop", dropHandler)
-drop.addEventListener("dragover", dragOverHandler)
+drop.addEventListener("dragover", dragOverHandeler)
 
-
-function dragHandler(event){
-    // alert("Dette er en alert")
-    event.target.style.left=event.x + "px"
-    event.target.style.top=event.y + "px"
-}
-function dropHandler(event){
-    alert("hurra!")
-}
-function dragOverHandler(event){
-    event.preventDefault()
+function dragHandler(event) {
+    alert("Det virker!")
 }

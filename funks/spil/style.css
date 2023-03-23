@@ -1,0 +1,42 @@
+body{
+    background-color: orange
+}
+.wrapper{
+
+    width: 75%;
+    margin: auto;
+    background-color: rgb(243, 211, 152);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.animal{
+    border: 2px solid gray;
+    min-height: 2rem;
+    margin-bottom: 0,5rem;
+    padding: 0,5 rem;
+   
+}
+.foodcontainer{
+    border: 2px solid gray;
+    padding: 1rem;
+    display: flex;
+}
+.foodcontainer article{
+    width: 200px;
+    border: 1px solid gray;
+    background-color: greenyellow;
+    text-align: left;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgba(255, 89, 0, 0.936);
+}
+#point{
+padding: 2rem;
+border-color: antiquewhite;
+
+}
